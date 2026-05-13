@@ -14,7 +14,7 @@ Bu projeyi forkladıktan sonra bilgisayarınıza klonlayın.
 
 - Aşağıda listelenen uç noktaları uygulamak için `index.js`, `api/server.js` ve `api/posts/posts-router.js` sayfalarına gerekli kodu ekleyin.
 - `/api/posts` ile başlayan uç noktaları `api/posts/posts-router.js` içindeki ayrı bir Ekspres Yönlendiriciye ayırın.
-- API'yi aşağıdaki yolları işleyecek şekilde yapılandırın. Bu uç noktalardan bazıları, `api/posts/posts-model.js` içinde sağlanan veritabanı yardımcılarına birden fazla çağrı yapılmasını gerektirebilir.
+- API'yi aşağıdaki yolları işleyecek şekilde yapılandırın. Bu uç noktalardan bazıları, `api/posts/posts-model.js` içinde sağlanan veritabanı yardımcılarına birden fazla çağrı yapılmasını gerekti rebilir.
 
 | N | Metod  | Uçnokta                 | Açıklama                                                                                                                     |
 | - | ------ | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -113,7 +113,7 @@ Bu projeyi forkladıktan sonra bilgisayarınıza klonlayın.
 - Eğer _comments_ ler döndürülemiyorsa:
 
   - HTTP `500` yanıtlar.
-  - Şu JSON'u döndürür: `{ message: "Yorumlar bilgisi getirilemedi" }`.
+  - Şu JSON'u döndürür: ``.
 
 ### Veritabanı Kalıcılığı Yardımcıları
 

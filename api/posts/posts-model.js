@@ -1,7 +1,7 @@
 const db = require('../../data/db-config');
 
 module.exports = {
-  find,
+  find, 
   findById,
   insert,
   update,
